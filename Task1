@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    enum yearMonths{January,February,March,April,May,June,July,August,September,Octomber,November,December};
+    printf("Value of enum Year Months: %d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n\n", January, February, March, April, May, June
+    , July, August, September, Octomber, November, December);
+    return 0;
+    }
