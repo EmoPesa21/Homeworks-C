@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    {
+        enum companyWorkers {
+            Ivan = 1, Stoyan = 2, Petar = 3, Milen = 4, Ognyan = 5
+        };
+        enum companyWorkers name1, name2, name3, name4, name5;
+        name1 = Ivan;
+        name2 = Stoyan;
+        name3 = Petar;
+        name4 = Milen;
+        name5 = Ognyan;
+        printf("Number of employes: %d,%d,%d,%d,%d\n ", name1, name2, name3, name4, name5);
+    }
+    return 0;
+}
