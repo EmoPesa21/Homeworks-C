@@ -1,0 +1,30 @@
+#include <iostream>
+
+int main() {
+    char b = 20;
+
+    b = b - 2;
+    b = b - 5;
+    b = b - 3;
+    b = b + 2;
+    b = b - 4;
+    b = b - 6;
+    b = b + 5;
+    b = b - 2;
+
+    printf("Remaining balls at the end of the day: %d\n", b);
+
+    char p = 20 - b;
+    printf("Teams at the field right now: %d\n", p);
+
+    float price = 3.50;
+    float income = price*2 + price*5 + price*3 + price*4 + price*6 + price*2;
+    printf("Total income of the day: %.2f\n", income);
+    return 0;
+}
+/* 
+ * OUTPUT:
+ * Remaining balls at the end of the day: 5
+Teams at the field right now: 15
+Total income of the day: 77.00
+ */
